@@ -4,10 +4,7 @@ import api from '../services/api';
 interface User {
   id: string;
   name: string;
-  email: string;
-  avatar: string;
-  created_at: Date;
-  updated_at: Date;
+  avatar_url: string;
 }
 
 interface AuthState {
